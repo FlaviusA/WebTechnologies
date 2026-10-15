@@ -1,0 +1,107 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+.login-brand {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 100%;
+    width: 260px;
+    height: auto;
+}
+
+.divider {
+    width: 3px;
+    align-self: stretch;
+    min-height: 260px;
+    background: white;
+    border-radius: 2px;
+}
+
+.login-form-wrap {
+    flex: 1;
+    max-width: 320px;
+    text-align: center;
+}
+
+.login-form-wrap h1 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #f95959;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background: #f95959;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    opacity: 0.85;
+}
+
+.register-hint {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.register-hint a {
+    color: #f95959;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-hint a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .login {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .divider {
+        width: 100%;
+        min-height: 0;
+        height: 3px;
+        align-self: auto;
+    }
+}

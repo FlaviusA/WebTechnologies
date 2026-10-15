@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #0e02ed;
+    background: linear-gradient(0deg,rgba(14, 2, 237, 1) 0%, rgba(78, 9, 121, 1) 0%, rgba(8, 28, 79, 1) 97%);
+}
+.centered
+{
+    color: yellowgreen;
+    text-align: center;
+
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #f95959;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
