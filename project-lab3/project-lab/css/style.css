@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    color: #222;
+    color: #323131;
     background: #f4f4f4;
 }
 
@@ -20,7 +20,7 @@ main {
 }
 
 section {
-    background: white;
+    background: rgb(255, 228, 228);
     margin-bottom: 1.5rem;
     padding: 1rem;
     border-radius: 8px;
